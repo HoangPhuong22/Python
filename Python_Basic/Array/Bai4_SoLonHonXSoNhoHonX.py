@@ -1,0 +1,7 @@
+n = int(input())
+a = list(int(x) for x in input().split())
+x = int(input())
+ans = sum(1 for num in a if num < x)
+res = sum(1 for num in a if num > x)
+print(ans )
+print(res)
